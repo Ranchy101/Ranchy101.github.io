@@ -131,3 +131,15 @@ nav img{
 	left: 90px;
 	position: relative;
 }
+.aboutpic1 img{
+	position: absolute;
+	left: 900px;
+	top: 400px;
+	width: 800px;
+}
+.aboutpic2 img{
+	position: absolute;
+	width: 600px;
+	left: 750px;
+	top: 120px;
+}
