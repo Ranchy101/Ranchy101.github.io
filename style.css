@@ -236,6 +236,24 @@ nav img{
 	width: 40px;
 	height: auto;
 }
+.gamedevs h5 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 400px;
+	left: 1400px;
+}
+.gamedevs p4{
+	position: absolute;
+	top: 630px;
+	left: 1400px;
+	font-size: 20px;
+}
+.gamedevs p4 img{
+	width: 40px;
+	height: auto;
+}
 .frontend h1{
 	position: absolute;
 	top: 780px;
