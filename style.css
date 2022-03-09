@@ -83,6 +83,7 @@ nav img{
 	background: rgba(0,0,0,0.4);
 	transition: 1s;
 }
+@media all and (max-width: 1920px) {
 .left-text-box {
 	display: inline-block;
 	text-decoration: none;
@@ -337,4 +338,309 @@ nav img{
 .organizers p2 img{
 	width: 40px;
 	height: auto;
+}
+}
+@media all and (max-width: 1280px) {
+	.header{
+	min-height: 100vh;
+	width: 1920px;
+	background-image: linear-gradient(rgba(255,165,0,0.4),rgba(255,165,0,0.4)),url(images/purpleHomepage.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+}
+nav img{
+	width: 150px;
+	padding: 1% 30%;
+	filter: brightness(700%);
+}
+.nav-links{
+	padding: 1% 6%;
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 18px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: rgba(255,255,255);
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height:  2px;
+	background: rgba(255,165,0,0.8);
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+	width: 100%;
+}
+.left-text-box {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 18px 54px;
+	font-size: 16px;
+	background: transparent;
+	position: relative;
+	width: 30%;
+	top: 50px;
+	left: 10px;
+	background-color: rgba(0,0,0,0.4);
+}
+.left-text-box h1{
+	text-align: center;
+}
+.resources{
+	position: absolute;
+	top: 100%;
+}
+.resources h1{
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	left: 200px;
+}
+.resources h2 img{
+	width: 500px;
+	right: 550px;
+}
+.resources h3{
+	position: relative;
+	bottom: 280px;
+	left: 35%;
+	font-size: 25px;
+}
+.resources p{
+	width:1400px;
+    word-wrap: break-word;
+	position: relative;
+	bottom: 280px;
+	left: 35%;
+}
+.resources h4 img{
+	width: 320px;
+	left: 90px;
+	position: relative;
+}
+.aboutpic1 img{
+	position: absolute;
+	left: 900px;
+	top: 400px;
+	width: 500px;
+}
+.aboutpic2 img{
+	position: absolute;
+	width: 400px;
+	left: 750px;
+	top: 120px;
+}
+.contact img{
+	width: 1903px;
+	height: 1800px
+}
+.contact h1 {
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	font-size: 45px;
+	width: 100%;
+}
+.contact h2 {
+	position: absolute;
+	top: 140px;
+	left: 170px;
+	text-align: center;
+	font-size: 25px;
+	width: 90%;
+}
+.contact h2 img{
+	position: relative;
+	right: 370px;
+	top: 25px;
+	width: 100px;
+    height: auto;
+}
+.contact h3{
+	position: absolute;
+	top: 270px;
+	font-size: 45px;
+	text-align: center;
+	width: 100%;
+}
+.gamedevs h1{
+	position: absolute;
+	top: 350px;
+	left: 70px;
+	font-size: 25px;
+}
+.gamedevs h2 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 400px;
+	left: 200px;
+}
+.gamedevs p{
+	position: absolute;
+	top: 630px;
+	left: 200px;
+	font-size: 20px;
+}
+.gamedevs p img{
+	width: 40px;
+	height: auto;
+}
+.gamedevs h3 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 400px;
+	left: 600px;
+}
+.gamedevs p2{
+	position: absolute;
+	top: 630px;
+	left: 600px;
+	font-size: 20px;
+}
+.gamedevs p2 img{
+	width: 40px;
+	height: auto;
+}
+.gamedevs h4 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 400px;
+	left: 1000px;
+}
+.gamedevs p3{
+	position: absolute;
+	top: 630px;
+	left: 1000px;
+	font-size: 20px;
+}
+.gamedevs p3 img{
+	width: 40px;
+	height: auto;
+}
+.gamedevs h5 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 400px;
+	left: 1400px;
+}
+.gamedevs p4{
+	position: absolute;
+	top: 630px;
+	left: 1400px;
+	font-size: 20px;
+}
+.gamedevs p4 img{
+	width: 40px;
+	height: auto;
+}
+.frontend h1{
+	position: absolute;
+	top: 780px;
+	left: 70px;
+	font-size: 25px;
+}
+.frontend h2 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 850px;
+	left: 200px;
+}
+.frontend p{
+	position: absolute;
+	top: 1080px;
+	left: 200px;
+	font-size: 20px;
+}
+.frontend p img{
+	width: 40px;
+	height: auto;
+}
+.frontend h3 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 850px;
+	left: 600px;
+}
+.frontend p2{
+	position: absolute;
+	top: 1080px;
+	left: 600px;
+	font-size: 20px;
+}
+.frontend p2 img{
+	width: 40px;
+	height: auto;
+}
+.organizers h1{
+	position: absolute;
+	top: 1230px;
+	left: 70px;
+	font-size: 25px;
+}
+.organizers h2 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 1290px;
+	left: 200px;
+}
+.organizers p{
+	position: absolute;
+	top: 1520px;
+	left: 200px;
+	font-size: 20px;
+}
+.organizers p img{
+	width: 40px;
+	height: auto;
+}
+.organizers h3 img{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	top: 1290px;
+	left: 600px;
+}
+.organizers p2{
+	position: absolute;
+	top: 1520px;
+	left: 600px;
+	font-size: 20px;
+}
+.organizers p2 img{
+	width: 40px;
+	height: auto;
+}
 }
