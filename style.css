@@ -13,6 +13,15 @@
 	background-size: cover;
 	position: relative;
 }
+.header iframe {
+	display:block; 
+	position: relative; 
+	top: 100px;
+    margin: 0 auto;
+	width:960px;
+	height:600px;
+	border:0;
+}
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -350,6 +359,15 @@ nav img{
 	background-size: cover;
 	position: relative;
 }
+.header iframe {
+	display:block; 
+	position: relative; 
+	top: 30px;
+    margin: 0 auto;
+	width:960px;
+	height:600px;
+	border:0;
+}
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -394,7 +412,7 @@ nav img{
 	text-decoration: none;
 	color: #fff;
 	padding: 18px 54px;
-	font-size: 16px;
+	font-size: 14px;
 	background: transparent;
 	position: relative;
 	width: 30%;
@@ -491,7 +509,7 @@ nav img{
 }
 .gamedevs h2 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 400px;
@@ -499,9 +517,9 @@ nav img{
 }
 .gamedevs p{
 	position: absolute;
-	top: 630px;
-	left: 200px;
-	font-size: 20px;
+	top: 560px;
+	left: 150px;
+	font-size: 15px;
 }
 .gamedevs p img{
 	width: 40px;
@@ -509,17 +527,17 @@ nav img{
 }
 .gamedevs h3 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 400px;
-	left: 600px;
+	left: 500px;
 }
 .gamedevs p2{
 	position: absolute;
-	top: 630px;
-	left: 600px;
-	font-size: 20px;
+	top: 560px;
+	left: 460px;
+	font-size: 15px;
 }
 .gamedevs p2 img{
 	width: 40px;
@@ -527,17 +545,17 @@ nav img{
 }
 .gamedevs h4 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 400px;
-	left: 1000px;
+	left: 800px;
 }
 .gamedevs p3{
 	position: absolute;
-	top: 630px;
-	left: 1000px;
-	font-size: 20px;
+	top: 560px;
+	left: 800px;
+	font-size: 15px;
 }
 .gamedevs p3 img{
 	width: 40px;
@@ -545,17 +563,17 @@ nav img{
 }
 .gamedevs h5 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 400px;
-	left: 1400px;
+	left: 1050px;
 }
 .gamedevs p4{
 	position: absolute;
-	top: 630px;
-	left: 1400px;
-	font-size: 20px;
+	top: 560px;
+	left: 1050px;
+	font-size: 15px;
 }
 .gamedevs p4 img{
 	width: 40px;
@@ -569,17 +587,17 @@ nav img{
 }
 .frontend h2 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 850px;
-	left: 200px;
+	left: 180px;
 }
 .frontend p{
 	position: absolute;
-	top: 1080px;
-	left: 200px;
-	font-size: 20px;
+	top: 1030px;
+	left: 180px;
+	font-size: 15px;
 }
 .frontend p img{
 	width: 40px;
@@ -587,17 +605,17 @@ nav img{
 }
 .frontend h3 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 850px;
-	left: 600px;
+	left: 530px;
 }
 .frontend p2{
 	position: absolute;
-	top: 1080px;
-	left: 600px;
-	font-size: 20px;
+	top: 1030px;
+	left: 530px;
+	font-size: 15px;
 }
 .frontend p2 img{
 	width: 40px;
@@ -611,17 +629,17 @@ nav img{
 }
 .organizers h2 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 1290px;
-	left: 200px;
+	left: 170px;
 }
 .organizers p{
 	position: absolute;
-	top: 1520px;
-	left: 200px;
-	font-size: 20px;
+	top: 1460px;
+	left: 170px;
+	font-size: 15px;
 }
 .organizers p img{
 	width: 40px;
@@ -629,17 +647,17 @@ nav img{
 }
 .organizers h3 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	border-radius: 50%;
 	top: 1290px;
-	left: 600px;
+	left: 530px;
 }
 .organizers p2{
 	position: absolute;
-	top: 1520px;
-	left: 600px;
-	font-size: 20px;
+	top: 1460px;
+	left: 530px;
+	font-size: 15px;
 }
 .organizers p2 img{
 	width: 40px;
