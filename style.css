@@ -349,7 +349,7 @@ nav img{
 	width: 40px;
 	height: auto;
 }
-@media all and (max-width: 1600px) {
+@media all and (max-width: 1770px) {
 	.header{
 	min-height: 100vh;
 	width: 100%;
@@ -463,41 +463,41 @@ nav img{
 	text-align: center;
 	font-size: 40px;
 	position: relative;
-	left: 200px;
+	left: 100px;
 }
 .resources h2 img{
-	width: 500px;
+	width: 400px;
 	right: 550px;
 }
 .resources h3{
 	position: relative;
-	bottom: 280px;
+	bottom: 230px;
 	left: 35%;
 	font-size: 25px;
 }
 .resources p{
-	width:1400px;
+	width:70%;
     word-wrap: break-word;
 	position: relative;
-	bottom: 280px;
-	left: 35%;
+	bottom: 230px;
+	left: 25%;
 }
 .resources h4 img{
-	width: 320px;
+	width: 220px;
 	left: 90px;
 	position: relative;
 }
 .aboutpic1 img{
 	position: absolute;
 	left: 900px;
-	top: 400px;
-	width: 800px;
+	top: 350px;
+	width: 600px;
 }
 .aboutpic2 img{
 	position: absolute;
-	width: 600px;
+	width: 400px;
 	left: 750px;
-	top: 120px;
+	top: 150px;
 }
 .contact img{
 	width: 1903px;
