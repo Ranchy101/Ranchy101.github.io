@@ -13,13 +13,31 @@
 	background-size: cover;
 	position: relative;
 }
+.headercontact{
+	min-height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+navcontact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+	background-image: linear-gradient(rgba(255,165,0,0.4),rgba(255,165,0,0.4)),url(images/purpleHomepage.jpg);
+	opacity:0.7;
+}
+navcontact img{
+	width: 150px;
+	padding: 1% 30%;
+	filter: brightness(700%);
+}
 .header iframe {
 	display:block; 
 	position: relative; 
 	top: 100px;
     margin: 0 auto;
-	width:960px;
-	height:600px;
 	border:0;
 }
 nav {
@@ -357,6 +375,26 @@ nav img{
 	background-position: center;
 	background-size: cover;
 	position: relative;
+}
+.headercontact{
+	min-height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+navcontact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+	background-image: linear-gradient(rgba(255,165,0,0.4),rgba(255,165,0,0.4)),url(images/purpleHomepage.jpg);
+	opacity:0.7;
+}
+navcontact img{
+	width: 150px;
+	padding: 1% 30%;
+	filter: brightness(700%);
 }
 .header iframe {
 	display:block; 
@@ -703,6 +741,26 @@ nav img{
 	background-position: center;
 	background-size: cover;
 	position: relative;
+}
+.headercontact{
+	min-height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+navcontact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+	background-image: linear-gradient(rgba(255,165,0,0.4),rgba(255,165,0,0.4)),url(images/purpleHomepage.jpg);
+	opacity:0.7;
+}
+navcontact img{
+	width: 150px;
+	padding: 1% 30%;
+	filter: brightness(700%);
 }
 .header iframe {
 	display:block; 
