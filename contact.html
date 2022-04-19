@@ -9,11 +9,15 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 	<meta http-equiv=cache="cache-control"content="no-cache">
+	<script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+	<link rel = "stylesheet" href = "dark.css"
+		media = "(prefers-color-scheme: dark)"
+	>
 </head>
 
 <body>
-	<section class="header">
-		<nav>
+	<section class="headercontact">
+		<navcontact>
 			<a href="index.html"><img src="images/logo.png"></a>
 			<div class="nav-links">
 				<ul>
@@ -23,9 +27,14 @@
 					<li><a href="contact.html">CONTACT</a></li>
 				</ul>
 			</div>
-		</nav>
+		</navcontact>
 		<div class = "contact">
-		    <img src = "images/pure-white-background.jpg">
+			<dark-mode-toggle
+				appearance= "switch"
+				light= "Light "
+				dark= "Dark"
+			></dark-mode-toggle>
+		    <!--<img src = "images/pure-white-background.jpg">-->
 			<h1>Contact Us</h1>	
 			<h2>
 				<a href="">as101team@gmail.com</a>
